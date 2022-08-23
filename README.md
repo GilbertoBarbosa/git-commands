@@ -69,6 +69,9 @@ git log -p
 
 # Mostra o histórico de commits de forma gráfica
 git log -graph
+
+# Mostra o histórico de commits de forma resumida (com os nomes dos arquivos)
+git log -stat
 ```
 
 Visualiza o que está diferente no projeto
