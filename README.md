@@ -74,6 +74,11 @@ git log -graph
 git log -stat
 ```
 
+Mostra o total de arquivos do repositório
+```
+git ls-files | wc -l
+```
+
 Visualiza o que está diferente no projeto
 ```
 git status
