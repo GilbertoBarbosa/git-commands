@@ -71,7 +71,7 @@ git log -p
 git log -graph
 
 # Mostra o histórico de commits de forma resumida (com os nomes dos arquivos)
-git log -stat
+git log --stat
 ```
 
 Mostra o total de arquivos do repositório
@@ -166,7 +166,7 @@ Incluir arquivo(s) no último commit
 ```
 git add .
 git commit --amend
-
+```
 
 Branches
 ```
