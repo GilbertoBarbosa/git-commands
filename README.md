@@ -160,7 +160,11 @@ git remote
 
 # Adicionar novo repositório
 git remote add <nome> <endereço>
+
+# Exclui um repositorio
+git remote rm destination
 ```
+
 
 Incluir arquivo(s) no último commit
 ```
