@@ -159,7 +159,7 @@ Git Remote
 git remote
 
 # Adicionar novo repositório
-git remote add <nome> <endereço>
+git remote add origin <endereço>
 
 # Exclui um repositorio
 git remote rm destination
