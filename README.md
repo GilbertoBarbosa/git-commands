@@ -97,6 +97,9 @@ git restore --staged <arquivo>
 
 # Reverter um commit ja realizado
 git revert <rash do commit a ser revertido>
+
+# Excluir arquivo de um commit para um repositório local
+git filter-granch --tree-filter 'rm -rf <arquivo>' HEAD
 ```
 
 Voltando um arquivo a um estado anterior:
