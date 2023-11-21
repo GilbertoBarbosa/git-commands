@@ -100,6 +100,9 @@ git revert <rash do commit a ser revertido>
 
 # Excluir arquivo de um commit para um repositório local
 git filter-granch --tree-filter 'rm -rf <arquivo>' HEAD
+
+# Excluir diretório de um commit
+git rm -r --cached folder
 ```
 
 Voltando um arquivo a um estado anterior:
